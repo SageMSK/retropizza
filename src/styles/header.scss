@@ -1,0 +1,41 @@
+/* Header
+==================================*/
+// Variables
+$nav-header-red: #F44336;
+$white: #FFFFFF;
+// Mixins
+
+// Styles
+.navbar-default {
+  font-family: 'Anton', sans-serif;
+  background-color: $nav-header-red;
+  color: $white;
+  font-size: 18px;
+  border: 0;
+
+  .navbar-header .navbar-brand {
+    color: $white;
+    font-size: 36px;
+    margin-top: 10px;
+    &:hover {
+      color: #009246;
+    }
+  }
+
+  .navbar-nav {
+    li {
+      a {
+        margin: 15px 25px;
+        padding:5px;
+        color: $white;
+        border-top: 3px solid $nav-header-red;
+        border-bottom: 3px solid $nav-header-red;
+        &:hover {
+          color: $white;
+          border-top: 3px solid $white;
+          border-bottom: 3px solid $white;
+        }
+      }
+    }
+  }
+}

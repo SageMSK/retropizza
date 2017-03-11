@@ -1,0 +1,30 @@
+/* About
+==================================*/
+// Variables
+
+// Mixins
+
+// Styles
+#about-page {
+  margin-top: -30px;
+  font-family: 'Merriweather', serif;
+  .bg-about {
+    background-image: url('./../img/brooklyn-street.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .about-message {
+    opacity: 0.95;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px 35px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+    h1 {
+      margin-bottom: 25px;
+    }
+  }
+}
